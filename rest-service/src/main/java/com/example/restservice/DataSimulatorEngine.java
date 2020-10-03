@@ -1,4 +1,4 @@
-package com.example.restservice;
+/*package com.example.restservice;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -18,9 +18,9 @@ public class DataSimulatorEngine {
 	/*@GetMapping("/simulate")
 	public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
-	} */
+	} 
 	
 	
 		
 	
-}
+}*/
