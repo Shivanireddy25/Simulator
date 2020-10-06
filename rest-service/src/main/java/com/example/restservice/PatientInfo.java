@@ -6,6 +6,13 @@ public class PatientInfo {
 	public String PatientId;
 	public int Age;
 	public int Sex;
+	public double years;
+	public double getYears() {
+		return years;
+	}
+	public void setYears(double years) {
+		this.years = years;
+	}
 	public String getPatientId() {
 		return PatientId;
 	}

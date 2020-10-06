@@ -6,17 +6,23 @@ public class DeviceData {
 	int Sex;
 	
 	
-	
+	String PatientId;
 	
 	/* G Values */
 	int Trestbps; 
+	public String getPatientId() {
+		return PatientId;
+	}
+	public void setPatientId(String patientId) {
+		PatientId = patientId;
+	}
 	int Chol;
 	int Fbs;
 	int Thalach;
 	int Thalrest; 
 	int Tpeakbps ;
 	int Tpeakbpd;
-	int Tresttbpd ;
+	int Trestbpd ;
 	
 	
 	/* R Values */
@@ -35,7 +41,6 @@ public class DeviceData {
 	int Met;
 	int exang;
 	int Xhypo; 
-	//String Old peak;
 	int Old_peak;
 	int Slope; 
 	int Rldv5;
@@ -43,24 +48,92 @@ public class DeviceData {
 	int Cp_encoded;
 	int Restcg_encoded;
 	
-	//String Relrest;
+	
+	double cigs;
+	public double getCigs() {
+		return cigs;
+	}
+	public void setCigs(double cigs) {
+		this.cigs = cigs;
+	}
+	public double getYears() {
+		return years;
+	}
+	public void setYears(double years) {
+		this.years = years;
+	}
+	double years;
 	
 	
-	//String Cigs;
-	//String Years;
+	
+	int cp_1;
+	int cp_2;
+	int cp_3;
+	int cp_4;
+	int relrest;
+	int restecg_0;
+	int restecg_1;
+	int restecg_2;
+	 
 	
 	
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
+	public int getTrestbpd() {
+		return Trestbpd;
+	}
+	public void setTrestbpd(int trestbpd) {
+		Trestbpd = trestbpd;
+	}
+	public int getCp_1() {
+		return cp_1;
+	}
+	public void setCp_1(int cp_1) {
+		this.cp_1 = cp_1;
+	}
+	public int getCp_2() {
+		return cp_2;
+	}
+	public void setCp_2(int cp_2) {
+		this.cp_2 = cp_2;
+	}
+	public int getCp_3() {
+		return cp_3;
+	}
+	public void setCp_3(int cp_3) {
+		this.cp_3 = cp_3;
+	}
+	public int getCp_4() {
+		return cp_4;
+	}
+	public void setCp_4(int cp_4) {
+		this.cp_4 = cp_4;
+	}
+	public int getRelrest() {
+		return relrest;
+	}
+	public void setRelrest(int relrest) {
+		this.relrest = relrest;
+	}
+	public int getRestecg_0() {
+		return restecg_0;
+	}
+	public void setRestecg_0(int restecg_0) {
+		this.restecg_0 = restecg_0;
+	}
+	public int getRestecg_1() {
+		return restecg_1;
+	}
+	public void setRestecg_1(int restecg_1) {
+		this.restecg_1 = restecg_1;
+	}
+	public int getRestecg_2() {
+		return restecg_2;
+	}
+	public void setRestecg_2(int restecg_2) {
+		this.restecg_2 = restecg_2;
+	}
 	public int getAge() {
 		return Age;
 	}
@@ -184,12 +257,7 @@ public class DeviceData {
 	public void setTpeakbpd(int tpeakbpd) {
 		Tpeakbpd = tpeakbpd;
 	}
-	public int getTresttbpd() {
-		return Tresttbpd;
-	}
-	public void setTresttbpd(int tresttbpd) {
-		Tresttbpd = tresttbpd;
-	}
+	
 	public int getExang() {
 		return exang;
 	}
@@ -239,7 +307,5 @@ public class DeviceData {
 		Restcg_encoded = restcg_encoded;
 	}
 	
-	//String Cp_encoded;
-	//String Restcg - encoded
 
 }
